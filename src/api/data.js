@@ -1,4 +1,4 @@
-const mood = [
+const moodData = [
   {
     date: "17/12",
     mood: 6,
@@ -31,7 +31,7 @@ const mood = [
   },
   {
     date: "22/12",
-    mood: 2,
+    mood: 3,
     energy: 5,
     workHours: 4.75,
   },
@@ -39,13 +39,45 @@ const mood = [
     date: "23/12",
     mood: 2,
     energy: 1,
-    workHours: 5,
+    workHours: 7,
   },
   {
     date: "24/12",
+    mood: 6,
+    energy: 6,
+    workHours: 5.2,
   },
   {
     date: "25/12",
+    mood: 7,
+    energy: 6,
+    workHours: 1,
   },
+  {
+    date: "26/12",
+    mood: 7,
+    energy: 8,
+    workHours: 7,
+  },
+  {
+    date: "27/12",
+    mood: 7,
+    energy: 4,
+    workHours: 3.7,
+  },
+  {
+    date: "28/12",
+    mood: 7,
+    energy: 5,
+    workHours: 3.3,
+  },
+  {
+    date: "29/12",
+    mood: 6,
+    energy: 3,
+    workHours: 6.5,
+  },
+  
 ];
-export default mood;
+
+export default moodData;
